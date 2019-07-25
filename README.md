@@ -18,3 +18,8 @@ the formatting for 5b didn’t work out super well - I think that should be a co
 It looks like 5 mostly describes how to do 2 within fly registry? Or do I create a docker image, push somewhere, create fly app, push fly app There’s some odd flow to those docs
 
 at a glance the deno link makes more sense - I’m going to give that one a go
+
+---
+
+* Deno imports shouldn't have .ts in path
+*

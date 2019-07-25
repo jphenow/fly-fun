@@ -1,0 +1,3 @@
+[build]
+  builder = "deno"
+  entry_file = "./server.ts"
