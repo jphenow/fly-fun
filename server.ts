@@ -7,7 +7,7 @@ console.log("listening on", PORT);
 async function helloServer(){
   for await (const req of serve(`:${PORT}`)) {
     const enc = new TextEncoder();
-    const body = `Hello from Deno!`;
+    const body = `Hello from Denoo!`;
     req.respond({ body: enc.encode(body) });
     console.log(`${req.method} ${req.url}`)
   }
